@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700&display=swap');
+
+html, body{
+    margin:0;
+    padding:0;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.container{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width:450px;
+    background-color:white;
+    border-radius:20px;
+    box-shadow: 0 0 25px rgba(199, 210, 242, 1);
+    text-align: center;
+    padding-bottom: 53px;
+    margin-bottom:15px;
+}
+
+.illustration-hero-img{
+    border-radius: 20px 20px 0 0;
+    width:100%;
+}
+
+.order-title{
+    padding:0;
+    margin-top:39px;
+    margin-bottom:0;
+    font-size: 29px;
+    color:#1F2F56;
+}
+
+.card-description{
+    text-align:center;
+    margin-left:10%;
+    width:80%;
+    color:#7280A7;
+    padding:0;
+    line-height:1.6em;
+    margin-top:17px;
+}
+
+.annual-plan-container{
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    margin-top:20px;
+    margin-left:10%;
+    width:80%;
+    padding:23px 28px;
+    background-color:#F5F7FF;
+    border-radius:12px;
+    text-align: left;
+}
+
+.price-container{
+    margin-left:20px;
+    flex:2;
+    line-height: 1.65em;
+}
+
+.annual-plan-price-text{
+    color:#1F2F56;
+}
+
+.annual-plan-price{
+    color:#7280A7;
+}
+
+.change-link{
+    color:#36299B;
+    font-size: 14px;
+}
+
+.change-link:hover{
+    color:#786CD8;
+    text-decoration: none;
+}
+
+.payment-button{
+    margin-left:10%;
+    width:80%;
+    background-color:#3829E0;
+    border-radius:10px;
+    height:50px;
+    margin-top:31px;
+    box-shadow: 0 15px 15px #D7D3FF;
+    margin-bottom:31px;
+    display: block;
+    line-height: 50px;
+    text-decoration: none;
+    color:white;
+}
+
+.payment-button:hover{
+    background-color:#766CF1;
+}
+
+.cancel-order-link{
+    color:#7280A7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cancel-order-link:hover{
+    color:#232C4D;
+}
+
+@media only screen and (max-width: 450px) {
+
+    .card{
+        width:327px;
+        padding-bottom: 33px;
+        margin-bottom:15px;
+    }
+
+    .order-title{
+        margin-top:26px;
+        font-size: 22px;
+    }
+
+    .card-description{
+        text-align:center;
+        margin-left:10%;
+        width:80%;
+    }
+
+    .annual-plan-container{
+        margin-top:23px;
+        margin-left:7%;
+        width:86%;
+        padding:15px 15px;
+    }
+
+    .price-container{
+        line-height: 1.45em;
+    }
+
+    .payment-button{
+        margin-left:7%;
+        width:86%;
+        margin-top:25px;
+        margin-bottom:23px;
+    }
+  }
